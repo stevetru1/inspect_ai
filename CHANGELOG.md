@@ -28,6 +28,7 @@
 - Bugfix: Conform to breaking changes in `openai` package (1.99.2).
 
 
+- Bugfix: Ensure that `model_roles` are available within task initialization code.
 
 ## 0.3.120 (07 August 2025)
 
