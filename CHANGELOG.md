@@ -4,6 +4,7 @@
 - MCP: Use [Remote MCP Servers](https://inspect.aisi.org.uk/tools-mcp.html#remote-mcp) with OpenAI and Anthropic models.
 - OpenAI: Use types from latest SDK (v1.99.7) and make that the minimum required version of the `openai` package.
 - OpenAI: Automatically use background-mode for deep research models.
+- Scoring: String to float conversion now extracts the first valid float from the string (ignoring trailing characters that are invalid for floats).
 - Eval logs: Add `if_match_etag` parameter for `write_eval_log()` and `etag` field to `EvalLog` for safe concurrent log modification.
 - ModelOutput: Setting the `completion` property now does not affect the underlying `message` content.
 - Inspect View: Improved handling of scores and messages with large or complex metadata.
