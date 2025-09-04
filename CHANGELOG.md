@@ -1,6 +1,7 @@
 ## Unreleased
 
 - OpenAI: Use types from latest SDK (v1.99.7) and make that the minimum required version of the `openai` package.
+- Eval logs: Add `if_match_etag` parameter for `write_eval_log()` and `etag` field to `EvalLog` for safe concurrent log modification.
 - Inspect View: Improved handling of scores and messages with large or complex metadata.
 
 ## 0.3.122 (11 August 2025)
