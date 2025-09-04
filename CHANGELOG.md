@@ -35,6 +35,7 @@
 
 
 - Bugfix: Ensure that `model_roles` are available within task initialization code.
+- Inspect View: Improved handling of scores and messages with large or complex metadata.
 
 ## 0.3.120 (07 August 2025)
 
